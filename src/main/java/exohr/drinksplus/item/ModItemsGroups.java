@@ -1,6 +1,7 @@
 package exohr.drinksplus.item;
 
 import exohr.drinksplus.DrinksPlus;
+import exohr.drinksplus.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -14,6 +15,8 @@ public class ModItemsGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
+
+                        entries.add(ModBlocks.RUBY_BLOCK);
 
                     }).build());
 

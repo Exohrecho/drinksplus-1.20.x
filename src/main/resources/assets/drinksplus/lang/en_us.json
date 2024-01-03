@@ -1,5 +1,7 @@
 {
   "item.drinksplus.ruby": "Ruby",
 
+  "block.drinksplus.ruby_block": "Block of Ruby",
+
   "itemgroup.ruby": "Test"
 }

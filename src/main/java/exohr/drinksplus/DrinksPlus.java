@@ -1,5 +1,7 @@
 package exohr.drinksplus;
 
+import exohr.drinksplus.item.ModItems;
+import exohr.drinksplus.item.ModItemsGroups;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,8 +14,8 @@ public class DrinksPlus implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-
+		ModItemsGroups.registerItemGroups();
+		ModItems.registerModItems();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

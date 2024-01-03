@@ -18,6 +18,11 @@
 		"main": [
 			"exohr.drinksplus.DrinksPlus"
 		],
+
+		"client": [
+			"exohr.drinksplus.DrinksPlusClient"
+		],
+
 		"fabric-datagen": [
 			"exohr.drinksplus.DrinksPlusDataGenerator"
 		]

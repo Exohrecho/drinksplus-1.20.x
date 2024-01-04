@@ -3,5 +3,8 @@
 
   "block.drinksplus.ruby_block": "Block of Ruby",
 
+  "block.drinksplus.ruby_ore": "Ruby Ore",
+  "block.drinksplus.deepslate_ruby_ore": "Deepslate Ruby Ore",
+
   "itemgroup.ruby": "Test"
 }

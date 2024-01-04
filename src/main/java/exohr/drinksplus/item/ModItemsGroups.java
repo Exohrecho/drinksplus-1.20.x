@@ -16,6 +16,8 @@ public class ModItemsGroups {
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
 
+                        entries.add(ModItems.METAL_DETECTOR);
+
                         entries.add(ModBlocks.RUBY_BLOCK);
 
                         entries.add(ModBlocks.RUBY_ORE);
@@ -25,6 +27,6 @@ public class ModItemsGroups {
 
     public static void registerItemGroups() {
         DrinksPlus.LOGGER.info("Registering Item Groups for " + DrinksPlus.MOD_ID);
-    }
 
+    }
 }
